@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+.main-body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cuadrado-derecho{
+    height: 70%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-left: 10px white solid;
+
+}
+
+.cuadrado-izquierdo{
+    height: 70%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-right: 10px green solid;
+}
+
+.bloque-1{
+    background-color: green;
+    height: 30%;
+    width: inherit;
+}
+
+.bloque-2{
+    background-color: blue;
+    height: 40%;
+    width: inherit;
+}
+
+.bloque-3{
+    background-color: purple;
+    height: 30%;
+    width: inherit;
+}
